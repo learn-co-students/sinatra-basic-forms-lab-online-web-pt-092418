@@ -16,7 +16,6 @@ class App < Sinatra::Base
     @age = params[:age]
 
     erb :display_puppy
-    #works but doesn't pass tests
   end
 
 end
